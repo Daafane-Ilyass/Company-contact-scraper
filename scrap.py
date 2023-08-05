@@ -101,7 +101,7 @@ def main():
             writer.writerow([company_name, website_url, contact_page_url, phone_numbers, email_addresses])
 
             # Rate limiting to avoid overloading the server
-            time.sleep(2)
+            time.sleep(10)
 
         driver.quit()
 
